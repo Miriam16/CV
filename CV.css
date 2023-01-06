@@ -1,0 +1,89 @@
+h1{
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    font-family: 'Cabin Sketch', cursive;
+  /*  font-family: 'EB Garamond', serif;*/
+
+    font-size: 48px; 
+    text-align: center;
+    color:rgb(85, 68, 238);
+}
+#div_datospersonales, #div_educacion, #div_experiencia
+{
+    display:block;
+    margin-top:15px;
+    width:290px;
+    height:50px;
+    /*border:solid 1px;*/
+    border-radius:5px;
+    background-color:rgb(154, 208, 218); 
+    position:absolute;
+    text-align:center;
+    padding-left:8px;
+}
+img {
+    border: 0;
+}
+#imagen {
+    margin-left: 45%;
+    width: 150px;
+    height: 150px;
+}
+#foto {
+    float: left;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    shape-outside: url("./Imagen/53.jpg");
+  }
+  ul li
+  {
+      cursor:pointer;
+      width: 300px;
+      height: 50px;
+      /*border: solid 1px;*/
+      text-align:center;
+      margin-left:10px;
+      border-radius:5px;
+      background-color:rgb(101, 219, 228);
+      position:static;
+      color:rgb(37, 24, 224);
+  }
+  #datos, #educ, #exper{
+    width: 300px;
+    text-align: center;
+  }
+  #div_nav {
+	/*width: 650px;*/
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	visibility: hidden;
+}  
+#menu{display: flex;list-style: none;height: 19px;width: 1170px;margin-left:15%;padding:0px}
+#div_datospersonales,  #div_educacion, #div_experiencia{display:none}
+#datospersonales:hover, #educacion:hover, #experiencia:hover
+{
+    background-color:rgb(154, 208, 218); 
+}
+.cls_lin{
+    color:blue; 
+    font-family: 'Sevillana'; 
+    font-size: 20px; 
+    text-align: center;
+}
+iframe {
+    margin-top: 20px;
+	width: 100%;
+	min-width: 1000px;
+	margin: auto;
+	height: 450px;
+	/*border:none;*/
+}
+#contenido{
+    margin-top: 8%;
+}
+
+
+
+
